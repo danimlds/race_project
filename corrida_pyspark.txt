@@ -10,7 +10,7 @@ random_data = np.round(np.random.uniform(1,101, size=(10,6)),3)
 print(random_data)
 
 df_data = pd.DataFrame(random_data,columns=['volta_1', 'volta_2', 'volta_3', 'volta_4', 'volta_5','volta_6'])
-df_data.index = ['Senna', 'Rubinho bate e quebra','Jason Bourne', 'Daniel',' Marcos','Lewis','Jose','Nathan','Edvaldo','Marcelo']
+df_data.index = ['Senna', 'Rubinho','Jason Bourne', 'Daniel',' Marcos','Lewis','Jose','Nathan','Edvaldo','Marcelo']
 print(df_data)
 
 # Convert the index to a column before creating the PySpark DataFrame
